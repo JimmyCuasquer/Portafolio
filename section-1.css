@@ -1,0 +1,114 @@
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img{
+    max-width: 100%;
+}
+section.padding-large{
+    padding: 50px 0;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.index-module--title--2xrf4 {
+    padding-bottom: 20px;
+}
+.titulo {
+    font-family: 'Abril Fatface', Arial,sans-serif;
+    line-height: .95;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+    word-break: break-word;
+    word-spacing: .05em;
+    font-size: 36px;
+}
+.titulo{
+        font-size: 56px;
+}
+.index-module--list--10gFh {
+    display: flex;
+    align-self: center;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.index-module--list--m2a4q {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.index-module--listItem--2VLfw {
+    display: flex;
+    margin-bottom: 12px;
+}
+.pl {
+    font-size: 20px;
+    line-height: 26px;
+}
+.index-module--btn--G0DB5 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 32px;
+}
+.pm {
+    font-size: 16px;
+    line-height: 24px;
+}
+.index-module--root--2TX1O {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 100%;
+    padding: 14px 24px;
+    overflow: hidden;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: background-color .2s ease-out;
+}
+.index-module--fullWidth--b5w3M {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.index-module--blue--2fvAw {
+    border: 2px solid #2156fa;
+    color: #fff;
+    background-color: #2156fa;
+}
+.pxs {
+    font-size: 12px;
+    line-height: 18px;
+}
+a, h2, h3, h4, h5, h6, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.index-module--btn--G0DB5 .index-module--btnSubtitle--K943T {
+    display: block;
+}
+.index-module--btn--G0DB5 .index-module--btnSubtitle--K943T {
+    text-align: center;
+}
+
+path{
+    color: green
+}
+.h2{
+    text-align: center;
+    font-size: 40px;
+    margin-block-start: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}

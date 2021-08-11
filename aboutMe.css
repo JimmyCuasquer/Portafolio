@@ -1,0 +1,97 @@
+*{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    width: 100%;
+}
+.buton{
+    margin-bottom: 15px;
+    margin: 10px 15px;
+}
+.styleButton{
+    margin: 15px;
+    background: yellowgreen;
+}
+.content {
+    display: flex;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    flex-direction: column;
+    width: 100%;
+}
+.contentInfo{
+    min-height: 1px;
+}
+
+.contBasic {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nomb {
+    height: 100%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.Nomb.nom {
+    height: auto;
+}
+.headc{
+    display: flex;
+}
+.contentInterno {
+    display: flex;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    flex-direction: column;
+    box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+.section-head {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.full-width {
+    width: 100% !important;
+}
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+.margin{
+    margin: 10px;
+}
+.decoration{
+    background: black;
+    color: white;
+}
+.decoracionButton{
+margin: auto;
+padding: 10px;
+}
+@media(min-width: 15px) and (max-width: 991px){
+    .col-12{
+        width: 100%;
+    }
+}
+@media(min-width: 15px) and (max-width: 991px){
+    .col-12-title-center{
+        text-align: center;
+        margin: auto;
+        
+    }
+}
