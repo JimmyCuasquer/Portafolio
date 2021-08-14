@@ -11,6 +11,7 @@ align-items: center;
 }
 nav{
     min-height: 90px;
+    display: contents;
 
 }
 .btn-menu{

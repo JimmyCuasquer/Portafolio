@@ -21,6 +21,7 @@
     <title>JimmyCuasquer</title>
 </head>
 <body>
+    <header id="main-header">
     <nav class="display-flex aling-items">
         <div class="contenedor display-flex separator aling-items w-100 flex-wrap position-relative">
             <div>
@@ -45,6 +46,7 @@
             </div>       
         </div>
     </nav> 
+</header>
     <section>
         <div class="contenedor">
             <div class="row">
@@ -126,11 +128,11 @@
                 <div class="section-head full-width mb-50">
                     <h4 class="title">Registrate</h4>
                 </div>
-                <form class="form full-width">
+                <form class="form full-width ">
                     <div class="row">
                         <div class="col-1 col-12">
                            <div class="form-group">
-                               <input type="text" name="name" placeholder="Digite su nombre" required="required">
+                               <input type="text" class="input" name="name" placeholder="Digite su nombre" required="required">
                            </div> 
                         </div>
                         <div class="col-2 col-12">
@@ -150,18 +152,15 @@
                             </div> 
                          </div>
                          <div class="row">
-                            <div class="col-12 margin decoracionButton">
-                                <button class="">
-                                    <input class="decoration decoracionButton"type="submit"  placeholder="Enviar" required="required">
-                                </button>
-                                
+                            <div class="col-12 decoracionButton">
+                                <input type="button" onclick="alert()" value="Enviar">       
                             </div> 
                          </div>
                     </div>
-                    
                 </form>
             </div>
         </div>
     </section>
 </body>
+<script src="./librerias/assets/js.js"></script>
 </html>

@@ -19,30 +19,32 @@
     <title>JimmyCuasquer</title>
 </head>
 <body> 
-    <nav class="display-flex aling-items">
-        <div class="contenedor display-flex separator aling-items w-100 flex-wrap position-relative">
-            <div>
-                <a href="./index.html" class="marca">Jimmy Cuasquer</a>
-            </div>  
-            <div onclick="toggleMenu()" class="burger-menu">
-                <button class="btn-menu">
+    <header id="main-header">
+         <nav class="display-flex aling-items">
+            <div class="contenedor display-flex separator aling-items w-100 flex-wrap position-relative">
+                 <div>
+                     <a href="./index.html" class="marca">Jimmy Cuasquer</a>
+                 </div>  
+                <div onclick="toggleMenu()" class="burger-menu">
+                    <button class="btn-menu">
                     <i class="fas fa-bars fa-2x"></i>
-                </button>
-            </div>    
-            <div class="btn-menu w-100 menu position-absolute top-100" id="main-menu">
-                <ul>
-                    <li><a href="./acercaDeMi.html">About me</a>
-                    </li>
-                    <li><a href="./home.html">Inspiracion</a>
-                    </li>
-                    <li><a href="./home.html">Precios</a>
-                    </li>
-                    <li><a href="./home.html">Blog</a>
-                    </li>
-                </ul>
-            </div>       
-        </div>
-    </nav>   
+                    </button>
+                </div>    
+                <div class="btn-menu w-100 menu position-absolute top-100" id="main-menu">
+                    <ul>
+                        <li><a href="./acercaDeMi.html">About me</a>
+                        </li>
+                        <li><a href="./home.html">Inspiracion</a>
+                        </li>
+                        <li><a href="./home.html">Precios</a>
+                        </li>
+                        <li><a href="./home.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>       
+         </div>
+    </nav>  
+</header> 
         <section class="section padding-large">
             <div class="contenedor">
                 <div class="row">
@@ -172,4 +174,6 @@
                     </div> 
         </section>
 </body>
+<script src="./librerias/assets/js.js"></script>
+<script src="librerias/assets/scroll.js"></script>
 </html>
