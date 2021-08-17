@@ -108,3 +108,10 @@ ul {
 a {
     text-decoration: none;
 }
+.fixed-header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color: blue;
+    transition: all 0.3s ease;
+}
