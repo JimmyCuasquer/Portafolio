@@ -11,49 +11,61 @@
     <link rel="stylesheet" href="./section-1.css">
     <link rel="stylesheet" href="./section-2.css">
     <link rel="stylesheet" href="./section-3.css">
+    <link rel="stylesheet" href="./Button.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="./librerias/assets/js.js"></script>
-    <link  rel="icon"   href="./librerias/assets/img/logo.png" type="image/png">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    
-    
+    <link rel="icon" href="./librerias/assets/img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>JimmyCuasquer</title>
 </head>
 <body>
     <header id="main-header">
-    <nav class="display-flex aling-items">
-        <div class="contenedor display-flex separator aling-items w-100 flex-wrap position-relative">
-            <div>
-                <a href="./index.html" class="marca">Jimmy Cuasquer</a>
-            </div>  
-            <div onclick="toggleMenu()" class="burger-menu">
-                <button class="btn-menu">
-                    <i class="fas fa-bars fa-2x"></i>
-                </button>
-            </div>    
-            <div class="btn-menu w-100 menu position-absolute top-100" id="main-menu">
-                <ul>
-                    <li><a href="./acercaDeMi.html">About me</a>
-                    </li>
-                    <li><a href="./home.html">Inspiracion</a>
-                    </li>
-                    <li><a href="./home.html">Precios</a>
-                    </li>
-                    <li><a href="./home.html">Blog</a>
-                    </li>
-                </ul>
-            </div>       
-        </div>
-    </nav> 
-</header>
-    <section>
+        <nav class="display-flex aling-items">
+            <div class="contenedor display-flex separator aling-items w-100 flex-wrap position-relative">
+                <div>
+                     <a href="./index.html" class="marca">Jimmy Cuasquer</a>
+                </div>  
+                <div onclick="toggleMenu()" class="burger-menu">
+                     <button class="btn-menu">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </button>
+                 </div>    
+                <div class="btn-menu w-100 menu position-absolute top-100" id="main-menu">
+                     <ul>
+                        <li><a href="./acercaDeMi.html">About me</a>
+                        </li>
+                        </li>
+                        <li><a href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>       
+            </div>
+        </nav> 
+    </header>
+<section class="main-section section padding-large" id="main-section">
+    <div class="main-title">
+      <h2>Jimmy Cuasquer</h2>
+      <h1>Desarrollador <span>Web Full Stack</span></h1>
+      <nav class="social-nav">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/Yimmi.C.Perez"> <i class="fab fa-facebook"></i></a> 
+          </li>
+          <li>
+            <a href="https://www.instagram.com/yimmicperez/?hl=es"> <i class="fab fa-instagram-square"></i></a> 
+          </li>
+          <li>
+            <a href="https://wa.me/573154736769"><i class="fab fa-whatsapp-square"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+    <section class="section padding-large">
         <div class="contenedor">
-            <div class="row">
-                <div class="col-1 col-12" >
-                   <img src="./librerias/assets/img/foto.jpg"  class="images" alt="Jimmy">     
-                </div>
-                <div class="col-2 col-12">
+            <div class="row">               
+                   <div class="col-2 col-12">
                     <div class="content">
                         <div class="contentInfo">
                             <div class="contBasic nomb Nomb.nom">
@@ -61,11 +73,10 @@
                                     <div class="contentInterno">
                                         <h2>Informacion basica</h2>
                                     </div>  
-
                                 </header>
                             </div>
                         </div>
-                       <div>
+                       <div class="col-1" >
                         <div>
                             <h3>Nombre</h3>
                             <p>
@@ -111,57 +122,33 @@
                             </div>
                         </div>
                     </div>
-<!--                    
-                    <h2>contacto</h2>
-                    <div>
-                        <button class="buton styleButton">
-                            <a href="https://wa.me/573154736769" class="styleButton">Contactame al Whatsapp!</a>
-                        </button>
-                        <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1566492620/content-items/003/212/919/2-original.png?1566492620">-->
+                  </div>
+                <div class="col-1 col-12" >
+                    <h3 class="text-aling-center"> Informacion de Servidores</h3>
+                     <img src="./librerias/assets/img/server.jpg" class="images" alt="Jimmy">
+                     <h3 class="text-aling-center">Informacion de Bases de Datos</h3>
+                   <img src="./librerias/assets/img/bd.jpg"  class="images" alt="Jimmy">  
                 </div>  
             </div>                          
         </div>
     </section>
-    <section class="section padding-large">
-        <div class="contenedor">
-            <div class="row">
-                <div class="section-head full-width mb-50">
-                    <h4 class="title">Registrate</h4>
-                </div>
-                <form class="form full-width ">
-                    <div class="row">
-                        <div class="col-1 col-12">
-                           <div class="form-group">
-                               <input type="text" class="input" name="name" placeholder="Digite su nombre" required="required">
-                           </div> 
-                        </div>
-                        <div class="col-2 col-12">
-                            <div class="form-group">
-                                <input type="text" name="correo" placeholder="Digite su correo" required="required">
-                            </div> 
-                         </div>
-                    </div>      
-                         <div class="row">
-                            <div class="col-12 w-100 margin">
-                                <input type="text" name="subjet" placeholder="subjet" required="required">
-                            </div> 
-                         </div>
-                         <div class="row">
-                            <div class="col-12 w-100 margin">
-                                <input type="text" name="mensaje" placeholder="dese su mensaje" required="required">
-                            </div> 
-                         </div>
-                         <div class="row">
-                            <div class="col-12 decoracionButton">
-                                <input type="button" onclick="alert()" value="Enviar">       
-                            </div> 
-                         </div>
+        <section >
+            <div class="contenedor">
+                <div class="row">
+                    <div class="form-register ">
+                        <h4 class="">Formulario de Registro Premium</h4>
+                        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+                        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+                        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+                        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña" required>
+                        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                        <input class="botons" type="submit" value="Registrar">
+                        <p><a href="#">¿Ya tengo Cuenta?</a></p>
                     </div>
-                </form>
-            </div>
-        </div>
-    </section>
-</body>
-<script src="./librerias/assets/js.js"></script>
-<script src="./librerias/assets/scroll.js"></script>
+                </div>
+            </div>        
+        </section>
+        <script src="./librerias/assets/js.js"></script>
+        <script src="./librerias/assets/scroll.js"></script>         
+    </body>
 </html>

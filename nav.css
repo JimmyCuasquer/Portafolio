@@ -23,7 +23,9 @@ nav .menu{
 }
 nav .menu.visible{
     display: block;
+    
 }
+
 .position-Relative{
     position: relative;
 }
@@ -54,9 +56,7 @@ nav .menu.visible{
 * {
     margin: 0;
     padding: 0;
-    color: black;
     box-sizing: border-box;
-    background-color: whitesmoke;
 }
 
 .contenedor {
@@ -71,6 +71,7 @@ nav .menu.visible{
   nav .marca {
     font-size: 1.3rem;
     font-weight: 600;
+    color: black;
   }
  /* 
   nav li {
@@ -112,6 +113,6 @@ a {
     position:fixed;
     width:100%;
     top:0;
-    background-color: blue;
+    background-color: cadetblue;
     transition: all 0.3s ease;
 }

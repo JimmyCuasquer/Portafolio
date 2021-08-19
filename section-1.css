@@ -90,11 +90,15 @@ section.padding-large{
     font-size: 12px;
     line-height: 18px;
 }
-a, h2, h3, h4, h5, h6, header{
+h3, h4, h5, h6, header{
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: baseline;
+    color: black;
+}
+ nav ul li  a {
+    color: black;
 }
 .index-module--btn--G0DB5 .index-module--btnSubtitle--K943T {
     display: block;
