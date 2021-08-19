@@ -33,7 +33,8 @@ nav .menu.visible{
     position: absolute;
 }
 .top-100{
-    top: 85%;
+    background-color: whitesmoke;
+    top: 90px;
     left: 0;
 }
 
